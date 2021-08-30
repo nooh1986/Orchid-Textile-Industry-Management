@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html class="loading" lang="en" data-textdirection="rtl">
+<!-- BEGIN: Head-->
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0,minimal-ui">
+    <meta name="description" content="Vuexy admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
+    <meta name="keywords" content="admin template, Vuexy admin template, dashboard template, flat admin template, responsive admin template, web app">
+    <meta name="author" content="PIXINVENT">
+
+    <title>	الزبائن
+</title>
+
+    <link rel="apple-touch-icon" href="http://127.0.0.1:8000/app-assets/images/ico/apple-icon-120.png">
+    <link rel="shortcut icon" type="image/x-icon" href="http://127.0.0.1:8000/app-assets//images/orchid.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600" rel="stylesheet">
+
+    <!-- BEGIN: Vendor CSS-->
+    <link rel="stylesheet" type="text/css" href="http://127.0.0.1:8000/app-assets/vendors/css/vendors-rtl.min.css">
+    <link rel="stylesheet" type="text/css" href="http://127.0.0.1:8000/app-assets/vendors/css/tables/datatable/dataTables.bootstrap5.min.css">
+    <link rel="stylesheet" type="text/css" href="http://127.0.0.1:8000/app-assets/vendors/css/tables/datatable/responsive.bootstrap4.min.css">
+    <link rel="stylesheet" type="text/css" href="http://127.0.0.1:8000/app-assets/vendors/css/tables/datatable/buttons.bootstrap5.min.css">
+    <link rel="stylesheet" type="text/css" href="http://127.0.0.1:8000/app-assets/vendors/css/tables/datatable/rowGroup.bootstrap4.min.css">
+    <link rel="stylesheet" type="text/css" href="http://127.0.0.1:8000/app-assets/vendors/css/pickers/flatpickr/flatpickr.min.css">
+    <!-- END: Vendor CSS-->
+
+    <!-- BEGIN: Theme CSS-->
+    <link rel="stylesheet" type="text/css" href="http://127.0.0.1:8000/app-assets/css-rtl/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="http://127.0.0.1:8000/app-assets/css-rtl/bootstrap-extended.css">
+    <link rel="stylesheet" type="text/css" href="http://127.0.0.1:8000/app-assets/css-rtl/colors.css">
+    <link rel="stylesheet" type="text/css" href="http://127.0.0.1:8000/app-assets/css-rtl/components.css">
+    <link rel="stylesheet" type="text/css" href="http://127.0.0.1:8000/app-assets/css-rtl/themes/dark-layout.css">
+    <link rel="stylesheet" type="text/css" href="http://127.0.0.1:8000/app-assets/css-rtl/themes/bordered-layout.css">
+    <link rel="stylesheet" type="text/css" href="http://127.0.0.1:8000/app-assets/css-rtl/themes/semi-dark-layout.css">
+
+    <!-- BEGIN: Page CSS-->
+    <link rel="stylesheet" type="text/css" href="http://127.0.0.1:8000/app-assets/css-rtl/core/menu/menu-types/horizontal-menu.css">
+    <link rel="stylesheet" type="text/css" href="http://127.0.0.1:8000/app-assets/css-rtl/pages/dashboard-ecommerce.css">
+    <link rel="stylesheet" type="text/css" href="http://127.0.0.1:8000/app-assets/css-rtl/plugins/forms/pickers/form-flat-pickr.css">
+    <!-- END: Page CSS-->
+
+    <!-- BEGIN: Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="http://127.0.0.1:8000/app-assets/css-rtl/custom-rtl.css">
+    <link rel="stylesheet" type="text/css" href="http://127.0.0.1:8000/assets/css/style-rtl.css">
+    <!-- END: Custom CSS-->
+
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.css">  
+    
+    
+
+       
+</head>
+<!-- END: Head-->
+
+<!-- BEGIN: Body-->
+
+<body class="horizontal-layout horizontal-menu  navbar-floating footer-static  " data-open="hover" data-menu="horizontal-menu" data-col="">
+
+    <!-- BEGIN: Header-->
+<nav class="header-navbar navbar-expand-lg navbar navbar-fixed align-items-center navbar-shadow navbar-brand-center" data-nav="brand-center">
+    <div class="navbar-header d-xl-block d-none">
+        <ul class="nav navbar-nav">
+            <li class="nav-item">
+                <a class="navbar-brand" href="#">
+                    <span class="brand-logo">
+                        <img src="http://127.0.0.1:8000/app-assets//images/orchid.svg">
+                    </span>
+                    
+                    <h2 class="brand-text mb-0">ORCHID</h2>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="navbar-container d-flex content">
+        <div class="bookmark-wrapper d-flex align-items-center">
+            <ul class="nav navbar-nav d-xl-none">
+                <li class="nav-item"><a class="nav-link menu-toggle" href="#"><i class="ficon" data-feather="menu"></i></a></li>
+            </ul>
+            <ul class="nav navbar-nav bookmark-icons">
+                <li class="nav-item d-none d-lg-block"><a class="nav-link" href="http://127.0.0.1:8000/output/create" data-bs-toggle="tooltip" data-bs-placement="bottom" title="تسجيل إنتاج يومي"><i class="ficon" data-feather="edit"></i></a></li>
+                <li class="nav-item d-none d-lg-block"><a class="nav-link" href="http://127.0.0.1:8000/expense" data-bs-toggle="tooltip" data-bs-placement="bottom" title="المصروفات"><i class="ficon" data-feather="shopping-bag"></i></a></li>
+                <li class="nav-item d-none d-lg-block"><a class="nav-link" href="http://127.0.0.1:8000/string/create" data-bs-toggle="tooltip" data-bs-placement="bottom" title="إضافه سده"><i class="ficon" data-feather="slack"></i></a></li>
+            </ul>
+        </div>
+        
+        <ul class="nav navbar-nav align-items-center ms-auto">
+            <li class="nav-item d-none d-lg-block"><a class="nav-link nav-link-style"><i class="ficon" data-feather="moon"></i></a></li>
+                
+            <li class="nav-item dropdown dropdown-user"><a class="nav-link dropdown-toggle dropdown-user-link" id="dropdown-user" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <div class="user-nav d-sm-flex d-none"><span class="user-name fw-bolder">ابو آدم</span></div><span class="avatar"><img class="round" src="http://127.0.0.1:8000/app-assets//images/portrait/small/avatar-s-11.jpg" alt="avatar" height="40" width="40"><span class="avatar-status-online"></span></span>
+                </a>
+                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdown-user">
+                    <a href="http://127.0.0.1:8000/profile" class="dropdown-item" href="page-profile.html"><i class="me-50" data-feather="user"></i> الملف الشخصي</a>
+
+                    <div class="dropdown-divider"></div>
+
+                    <form method="POST" action="http://127.0.0.1:8000/logout">
+                        <input type="hidden" name="_token" value="649aRUiTBDrC6zGpAbyqOSiF28unvxhW1jJSgFke">                        <a class="dropdown-item" href="#" onclick="event.preventDefault();
+                        this.closest('form').submit();"><i class="me-50" data-feather="power"></i> تسجيل الخروج</a>
+                    </form>    
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- END: Header-->
+    <!-- BEGIN: Main Menu-->
+<div class="horizontal-menu-wrapper">
+    <div class="header-navbar navbar-expand-sm navbar navbar-horizontal floating-nav navbar-light navbar-shadow menu-border container-xxl" role="navigation" data-menu="menu-wrapper" data-menu-type="floating-nav">
+        
+        <!-- Horizontal menu content-->
+        <div class="navbar-container main-menu-content" data-menu="menu-container">
+            
+            <ul class="nav navbar-nav" id="main-menu-navigation" data-menu="menu-navigation">
+                <li class="dropdown nav-item" data-menu="dropdown"><a class="dropdown-toggle nav-link d-flex align-items-center" href="#" data-bs-toggle="dropdown"><i data-feather="home"></i><span data-i18n="Dashboards">لوحة التحكم</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item d-flex align-items-center" href="http://127.0.0.1:8000/dashboard" data-bs-toggle="" data-i18n="eCommerce"><i data-feather="trending-up"></i><span data-i18n="eCommerce">الإحصائيات</span></a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown nav-item" data-menu="dropdown"><a class="dropdown-toggle nav-link d-flex align-items-center" href="#" data-bs-toggle="dropdown"><i data-feather="users"></i><span data-i18n="Apps">الزبائن</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item d-flex align-items-center" href="http://127.0.0.1:8000/customer" data-i18n="Email"><i data-feather="eye"></i><span data-i18n="Email">عرض الزبائن</span></a></li>
+                    </ul>    
+                </li>
+
+                <li class="dropdown nav-item" data-menu="dropdown"><a class="dropdown-toggle nav-link d-flex align-items-center" href="#" data-bs-toggle="dropdown"><i data-feather="slack"></i><span data-i18n="User Interface">السدوات</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item d-flex align-items-center" href="http://127.0.0.1:8000/string/create" data-i18n="Feather"><i data-feather="file-plus"></i><span data-i18n="Feather">إضافه سده</span></a></li>
+                        <li><a class="dropdown-item d-flex align-items-center" href="http://127.0.0.1:8000/string" data-i18n="Typography"><i data-feather="eye"></i><span data-i18n="Typography">عرض السدوات قيد الانتظار</span></a></li>
+                        <li><a class="dropdown-item d-flex align-items-center" href="http://127.0.0.1:8000/string-work" data-i18n="Typography"><i data-feather="eye"></i><span data-i18n="Typography">عرض السدوات في العمل</span></a></li>
+                        <li><a class="dropdown-item d-flex align-items-center" href="http://127.0.0.1:8000/string-end" data-i18n="Typography"><i data-feather="eye"></i><span data-i18n="Typography">عرض السدوات المنتهيه</span></a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown nav-item" data-menu="dropdown"><a class="dropdown-toggle nav-link d-flex align-items-center" href="#" data-bs-toggle="dropdown"><i data-feather="edit"></i><span data-i18n="Forms &amp; Tables">الإنتاج</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item d-flex align-items-center" href="http://127.0.0.1:8000/output" data-i18n="Form Layout"><i data-feather="eye"></i><span data-i18n="Form Layout">عرض الانتاج اليومي</span></a></li>
+                        <li><a class="dropdown-item d-flex align-items-center" href="http://127.0.0.1:8000/output/create" data-i18n="Form Wizard"><i data-feather="file-plus"></i><span data-i18n="Form Wizard">تسجيل الانتاج اليومي</span></a></li>
+                    </ul>
+                </li>
+                
+                <li class="dropdown nav-item" data-menu="dropdown"><a class="dropdown-toggle nav-link d-flex align-items-center" href="#" data-bs-toggle="dropdown"><i data-feather="shopping-bag"></i><span data-i18n="Misc">المصروفات</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item d-flex align-items-center" href="http://127.0.0.1:8000/expense" data-i18n="Disabled Menu"><i data-feather="eye"></i><span data-i18n="Disabled Menu">عرض المصروفات</span></a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown nav-item" data-menu="dropdown"><a class="dropdown-toggle nav-link d-flex align-items-center" href="#" data-bs-toggle="dropdown"><i data-feather="file-text"></i><span data-i18n="Pages">الحسابات</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item d-flex align-items-center" href="http://127.0.0.1:8000/customer-account" data-i18n="Account Settings"><i data-feather="users"></i><span data-i18n="Account Settings">حسابات الزبائن</span></a></li>
+                        <li><a class="dropdown-item d-flex align-items-center" href="http://127.0.0.1:8000/machine-account" data-i18n="Profile"><i data-feather="inbox"></i><span data-i18n="Profile">حسابات الماكينات</span></a></li>
+                        <li><a class="dropdown-item d-flex align-items-center" href="http://127.0.0.1:8000/expense-account" data-i18n="FAQ"><i data-feather="shopping-bag"></i><span data-i18n="FAQ">حسابات المصاريف</span></a></li>
+                        <li><a class="dropdown-item d-flex align-items-center" href="http://127.0.0.1:8000/profit-account" data-i18n="Knowledge Base"><i data-feather="dollar-sign"></i><span data-i18n="Knowledge Base">حساب الارباح</span></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- END: Main Menu-->
+    <div class="app-content content ">
+        <div class="content-overlay"></div>
+        <div class="header-navbar-shadow"></div>
+        <div class="content-wrapper container-xxl p-0">
+            
+                <div class="content-header row">
+        <div class="content-header-left col-md-9 col-12 mb-2">
+            <div class="row breadcrumbs-top">
+                <div class="col-12">
+                    <h2 class="content-header-title float-start mb-0">الزبائن</h2>
+                    <div class="breadcrumb-wrapper">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item active">عرض الزبائن</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+                    
+    <div class="content-body">
+        <div class="row" id="basic-table">
+            <div class="col-12">
+                <div class="card">
+
+                    <div class="card-header">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#create">إضافة زبون</button>
+                    </div>
+
+                    <div class="table-responsive">
+                        <table id="example" class="table">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>الاسم</th>
+                                    <th>رقم الهاتف</th>
+                                    <th>الحاله</th>
+                                    <th>العمليات</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                                                    <tr>
+                                        <td>1</td>
+                                        <td>nooh</td>
+                                        <td>2345678</td>
+                                        <td>
+                                                                                            <span class="badge rounded-pill badge-light-success me-1">مفعل</span>
+                                                                                    <td>
+                                            <a href="#" data-bs-target="#edit1" data-bs-toggle="modal"><i data-feather="edit-2" class="me-50"></i></a>
+                                            
+                                            <a href="#" data-bs-target="#delete1" data-bs-toggle="modal"><i data-feather="trash" class="me-50"></i></a>
+                                        </td>
+                                    </tr>
+
+                                    <div class="modal fade modal-danger text-start" id="delete1" tabindex="-1" aria-labelledby="myModalLabel1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel1">حذف زبون</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <br>
+            
+            <form action="http://127.0.0.1:8000/customer/test" method="Post" autocomplete="off">
+                <input type="hidden" name="_token" value="649aRUiTBDrC6zGpAbyqOSiF28unvxhW1jJSgFke">                <input type="hidden" name="_method" value="Delete">
+                <div class="modal-body">
+
+                    <input type="hidden" name="id" value="1">
+
+                    هل انت متاكد من عمليه الحذف؟
+    
+                </div>
+                <br>
+                
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-danger">حذف</button>
+                </div>
+
+            </form>    
+        </div>
+    </div>
+</div>
+                                    <div class="modal fade text-start" id="edit1" tabindex="-1" aria-labelledby="myModalLabel1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel1">تعديل زبون</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <form action="http://127.0.0.1:8000/customer/test" method="Post" autocomplete="off">
+                <input type="hidden" name="_token" value="649aRUiTBDrC6zGpAbyqOSiF28unvxhW1jJSgFke">                <input type="hidden" name="_method" value="PUT">
+                <input type="hidden" name="id" value="1">
+
+                <div class="modal-body">
+
+                    <div class="mb-1">
+                        <label class="form-label" for="defaultInput">الاسم</label>
+                        <input id="defaultInput" class="form-control" type="text" name="name" value="nooh"/>
+                    </div>
+                    <br>
+                    <div class="mb-1">
+                        <label class="form-label" for="defaultInput">رقم الهاتف</label>
+                        <input id="defaultInput" class="form-control" type="text" name="phone" value="2345678"/>
+                    </div>
+                    <br>
+
+                    <div class="mb-1">
+                        <label class="form-label" for="basicSelect">الحاله</label>
+                        <select class="form-select" id="basicSelect" name="status">
+                            <option value="1" selected>مفعل</option>
+                            <option value="0" >غير مفعل</option>
+                        </select>
+                    </div>
+                    
+                </div>
+
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary">تعديل</button>
+                </div>
+            </form>    
+        </div>
+    </div>
+</div>
+                                                                    <tr>
+                                        <td>2</td>
+                                        <td>عمار</td>
+                                        <td>234567890</td>
+                                        <td>
+                                                                                            <span class="badge rounded-pill badge-light-success me-1">مفعل</span>
+                                                                                    <td>
+                                            <a href="#" data-bs-target="#edit2" data-bs-toggle="modal"><i data-feather="edit-2" class="me-50"></i></a>
+                                            
+                                            <a href="#" data-bs-target="#delete2" data-bs-toggle="modal"><i data-feather="trash" class="me-50"></i></a>
+                                        </td>
+                                    </tr>
+
+                                    <div class="modal fade modal-danger text-start" id="delete2" tabindex="-1" aria-labelledby="myModalLabel1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel1">حذف زبون</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <br>
+            
+            <form action="http://127.0.0.1:8000/customer/test" method="Post" autocomplete="off">
+                <input type="hidden" name="_token" value="649aRUiTBDrC6zGpAbyqOSiF28unvxhW1jJSgFke">                <input type="hidden" name="_method" value="Delete">
+                <div class="modal-body">
+
+                    <input type="hidden" name="id" value="2">
+
+                    هل انت متاكد من عمليه الحذف؟
+    
+                </div>
+                <br>
+                
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-danger">حذف</button>
+                </div>
+
+            </form>    
+        </div>
+    </div>
+</div>
+                                    <div class="modal fade text-start" id="edit2" tabindex="-1" aria-labelledby="myModalLabel1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel1">تعديل زبون</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <form action="http://127.0.0.1:8000/customer/test" method="Post" autocomplete="off">
+                <input type="hidden" name="_token" value="649aRUiTBDrC6zGpAbyqOSiF28unvxhW1jJSgFke">                <input type="hidden" name="_method" value="PUT">
+                <input type="hidden" name="id" value="2">
+
+                <div class="modal-body">
+
+                    <div class="mb-1">
+                        <label class="form-label" for="defaultInput">الاسم</label>
+                        <input id="defaultInput" class="form-control" type="text" name="name" value="عمار"/>
+                    </div>
+                    <br>
+                    <div class="mb-1">
+                        <label class="form-label" for="defaultInput">رقم الهاتف</label>
+                        <input id="defaultInput" class="form-control" type="text" name="phone" value="234567890"/>
+                    </div>
+                    <br>
+
+                    <div class="mb-1">
+                        <label class="form-label" for="basicSelect">الحاله</label>
+                        <select class="form-select" id="basicSelect" name="status">
+                            <option value="1" selected>مفعل</option>
+                            <option value="0" >غير مفعل</option>
+                        </select>
+                    </div>
+                    
+                </div>
+
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary">تعديل</button>
+                </div>
+            </form>    
+        </div>
+    </div>
+</div>
+                                                                    <tr>
+                                        <td>3</td>
+                                        <td>ياسر</td>
+                                        <td>34567890</td>
+                                        <td>
+                                                                                            <span class="badge rounded-pill badge-light-success me-1">مفعل</span>
+                                                                                    <td>
+                                            <a href="#" data-bs-target="#edit7" data-bs-toggle="modal"><i data-feather="edit-2" class="me-50"></i></a>
+                                            
+                                            <a href="#" data-bs-target="#delete7" data-bs-toggle="modal"><i data-feather="trash" class="me-50"></i></a>
+                                        </td>
+                                    </tr>
+
+                                    <div class="modal fade modal-danger text-start" id="delete7" tabindex="-1" aria-labelledby="myModalLabel1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel1">حذف زبون</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <br>
+            
+            <form action="http://127.0.0.1:8000/customer/test" method="Post" autocomplete="off">
+                <input type="hidden" name="_token" value="649aRUiTBDrC6zGpAbyqOSiF28unvxhW1jJSgFke">                <input type="hidden" name="_method" value="Delete">
+                <div class="modal-body">
+
+                    <input type="hidden" name="id" value="7">
+
+                    هل انت متاكد من عمليه الحذف؟
+    
+                </div>
+                <br>
+                
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-danger">حذف</button>
+                </div>
+
+            </form>    
+        </div>
+    </div>
+</div>
+                                    <div class="modal fade text-start" id="edit7" tabindex="-1" aria-labelledby="myModalLabel1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel1">تعديل زبون</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <form action="http://127.0.0.1:8000/customer/test" method="Post" autocomplete="off">
+                <input type="hidden" name="_token" value="649aRUiTBDrC6zGpAbyqOSiF28unvxhW1jJSgFke">                <input type="hidden" name="_method" value="PUT">
+                <input type="hidden" name="id" value="7">
+
+                <div class="modal-body">
+
+                    <div class="mb-1">
+                        <label class="form-label" for="defaultInput">الاسم</label>
+                        <input id="defaultInput" class="form-control" type="text" name="name" value="ياسر"/>
+                    </div>
+                    <br>
+                    <div class="mb-1">
+                        <label class="form-label" for="defaultInput">رقم الهاتف</label>
+                        <input id="defaultInput" class="form-control" type="text" name="phone" value="34567890"/>
+                    </div>
+                    <br>
+
+                    <div class="mb-1">
+                        <label class="form-label" for="basicSelect">الحاله</label>
+                        <select class="form-select" id="basicSelect" name="status">
+                            <option value="1" selected>مفعل</option>
+                            <option value="0" >غير مفعل</option>
+                        </select>
+                    </div>
+                    
+                </div>
+
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary">تعديل</button>
+                </div>
+            </form>    
+        </div>
+    </div>
+</div>
+                                                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+        
+    <div class="modal fade text-start" id="create" tabindex="-1" aria-labelledby="myModalLabel1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel1">إضافه زبون</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <form action="http://127.0.0.1:8000/customer" method="Post" autocomplete="off">
+                <input type="hidden" name="_token" value="649aRUiTBDrC6zGpAbyqOSiF28unvxhW1jJSgFke">
+                <div class="modal-body">
+
+                    <div class="mb-1">
+                        <label class="form-label" for="defaultInput">الاسم</label>
+                        <input id="defaultInput" class="form-control" type="text" name="name" />
+                    </div>
+                    <br>
+                    <div class="mb-1">
+                        <label class="form-label" for="defaultInput">رقم الهاتف</label>
+                        <input id="defaultInput" class="form-control" type="text" name="phone" />
+                    </div>
+                    
+                </div>
+
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary">حفظ</button>
+                </div>
+            </form>    
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+    
+    <div class="sidenav-overlay"></div>
+    <div class="drag-target"></div>
+
+    <!-- BEGIN: Footer-->
+    <footer class="footer footer-static footer-light">
+        <p class="clearfix mb-0"><span class="float-md-start d-block d-md-inline-block mt-25">COPYRIGHT &copy; 2021<a class="ms-25" href="#"> Almaestro</a><span class="d-none d-sm-inline-block">, All rights Reserved</span></span>
+            <span class="float-md-end d-none d-md-block"><i data-feather="heart"></i>Hand-crafted & Made with</span>
+        </p>
+    </footer>
+    <button class="btn btn-primary btn-icon scroll-top" type="button"><i data-feather="arrow-up"></i></button>
+    <!-- END: Footer-->
+    <!-- BEGIN: Vendor JS-->
+<script src="http://127.0.0.1:8000/app-assets/vendors/js/vendors.min.js"></script>
+<!-- BEGIN Vendor JS-->
+
+<!-- BEGIN: Page Vendor JS-->
+<script src="http://127.0.0.1:8000/app-assets/vendors/js/tables/datatable/jquery.dataTables.min.js"></script>
+<script src="http://127.0.0.1:8000/app-assets/vendors/js/tables/datatable/dataTables.bootstrap5.min.js"></script>
+<script src="http://127.0.0.1:8000/app-assets/vendors/js/tables/datatable/dataTables.responsive.min.js"></script>
+<script src="http://127.0.0.1:8000/app-assets/vendors/js/tables/datatable/responsive.bootstrap4.min.js"></script>
+<script src="http://127.0.0.1:8000/app-assets/vendors/js/tables/datatable/datatables.checkboxes.min.js"></script>
+<script src="http://127.0.0.1:8000/app-assets/vendors/js/tables/datatable/datatables.buttons.min.js"></script>
+<script src="http://127.0.0.1:8000/app-assets/vendors/js/tables/datatable/jszip.min.js"></script>
+<script src="http://127.0.0.1:8000/app-assets/vendors/js/tables/datatable/pdfmake.min.js"></script>
+<script src="http://127.0.0.1:8000/app-assets/vendors/js/tables/datatable/vfs_fonts.js"></script>
+<script src="http://127.0.0.1:8000/app-assets/vendors/js/tables/datatable/buttons.html5.min.js"></script>
+<script src="http://127.0.0.1:8000/app-assets/vendors/js/tables/datatable/buttons.print.min.js"></script>
+<script src="http://127.0.0.1:8000/app-assets/vendors/js/tables/datatable/dataTables.rowGroup.min.js"></script>
+<script src="http://127.0.0.1:8000/app-assets/vendors/js/pickers/flatpickr/flatpickr.min.js"></script>
+<script src="http://127.0.0.1:8000/app-assets/vendors/js/ui/jquery.sticky.js"></script>
+<!-- END: Page Vendor JS-->
+
+<!-- BEGIN: Theme JS-->
+<script src="http://127.0.0.1:8000/app-assets/js/core/app-menu.js"></script>
+<script src="http://127.0.0.1:8000/app-assets/js/core/app.js"></script>
+<!-- END: Theme JS-->
+
+<!-- BEGIN: Page JS-->
+<script src="http://127.0.0.1:8000/app-assets/js/scripts/pages/dashboard-ecommerce.js"></script>
+<!-- END: Page JS-->
+
+<script>
+    $(window).on('load', function() {
+        if (feather) {
+            feather.replace({
+                width: 14,
+                height: 14
+            });
+        }
+    })
+</script>
+
+
+    
+
+    <script>
+        $(document).ready(function() {
+            $('#example').DataTable();
+        } );
+    </script>  
+    
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.js"></script>    <script type="text/javascript">toastr.options = {"closeButton":true,"closeClass":"toast-close-button","closeDuration":300,"closeEasing":"swing","closeHtml":"<button><i class=\"icon-off\"><\/i><\/button>","closeMethod":"fadeOut","closeOnHover":true,"containerId":"toast-container","debug":false,"escapeHtml":false,"extendedTimeOut":10000,"hideDuration":1000,"hideEasing":"linear","hideMethod":"fadeOut","iconClass":"toast-info","iconClasses":{"error":"toast-error","info":"toast-info","success":"toast-success","warning":"toast-warning"},"messageClass":"toast-message","newestOnTop":false,"onHidden":null,"onShown":null,"positionClass":"toast-top-right","preventDuplicates":true,"progressBar":true,"progressClass":"toast-progress","rtl":false,"showDuration":300,"showEasing":"swing","showMethod":"fadeIn","tapToDismiss":true,"target":"body","timeOut":5000,"titleClass":"toast-title","toastClass":"toast"};</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+<!-- END: Body-->
+
+</html>
