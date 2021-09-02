@@ -8,7 +8,7 @@
             <ul class="nav navbar-nav" id="main-menu-navigation" data-menu="menu-navigation">
                 <li class="dropdown nav-item" data-menu="dropdown"><a class="dropdown-toggle nav-link d-flex align-items-center" href="#" data-bs-toggle="dropdown"><i data-feather="home"></i><span data-i18n="Dashboards">لوحة التحكم</span></a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item d-flex align-items-center" href="{{ route('dashboard') }}" data-bs-toggle="" data-i18n="eCommerce"><i data-feather="trending-up"></i><span data-i18n="eCommerce">الإحصائيات</span></a></li>
+                        <li class="active"><a class="dropdown-item d-flex align-items-center" href="{{ route('dashboard') }}" data-bs-toggle="" data-i18n="eCommerce"><i data-feather="trending-up"></i><span data-i18n="eCommerce">الإحصائيات</span></a></li>
                     </ul>
                 </li>
 

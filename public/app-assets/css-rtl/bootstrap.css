@@ -4,6 +4,7 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+ @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap');
 :root {
   --bs-blue : #00CFE8;
   --bs-indigo : #6610F2;
@@ -26,8 +27,8 @@
   --bs-danger : #EA5455;
   --bs-light : #F6F6F6;
   --bs-dark : #4B4B4B;
-  --bs-font-sans-serif : 'Montserrat', Helvetica, Arial, serif;
-  --bs-font-monospace : 'Montserrat', Helvetica, Arial, serif;
+  --bs-font-sans-serif : 'Cairo', sans-serif;
+  --bs-font-monospace : 'Cairo', sans-serif;
   --bs-gradient : linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
 }
 
